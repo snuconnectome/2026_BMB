@@ -10,6 +10,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
 
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from data_loader import load_syllabus_excel, load_text_document
 
 DB_PATH = "/Users/jiookcha/Documents/git/2026_BMB/data/vector_store/bmb_index_dgx"

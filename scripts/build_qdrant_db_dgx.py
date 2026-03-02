@@ -94,9 +94,8 @@ def build_qdrant_hybrid_db(num_workers: int):
 
     print(f"[INFO] Building Qdrant Hybrid Vector Store at {QDRANT_PATH}...")
     
-    # Creating local Qdrant Client
+    # Ensure directory exists
     os.makedirs(QDRANT_PATH, exist_ok=True)
-    client = QdrantClient(path=QDRANT_PATH)
     
     # We use QdrantVectorStore from langchain_qdrant
     qdrant = QdrantVectorStore.from_documents(

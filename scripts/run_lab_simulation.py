@@ -21,7 +21,7 @@ def main():
     print("==============================================\n")
     
     # Initialize real Gemini Pro model for reasoning
-    print("Initializing Gemini 1.5 Pro Model...")
+    print("Initializing Gemini 3.1 Pro Model (Latest 2026 Edition)...")
     try:
         real_llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.2)
     except Exception as e:

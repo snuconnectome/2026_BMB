@@ -77,6 +77,17 @@ pip install -r requirements.txt
 python scripts/build_vector_db.py
 ```
 
+## 🚀 2026 Vector DB SOTA 업그레이드 To-Do
+
+현재 로컬 프로토타입 상태인 Vector DB 파이프라인을 2026년 기준 최고의 성능을 위해 NVIDIA DGX-Spark 환경으로 마이그레이션하고 고도화하는 작업 목록입니다. 상세한 계획은 [docs/VectorDB_Improvement_Plan.md](docs/VectorDB_Improvement_Plan.md)를 참조하세요.
+
+- [ ] 구조화된 데이터(엑셀표) 및 마크다운 논리적 청킹 로직 구현 (Semantic Chunking)
+- [ ] 고해상도 임베딩 모델(예: OpenAI, Upstage, 또는 DGX GPU 활용 OSS)로 교체
+- [ ] Qdrant 등 하이브리드 검색 지원 Vector DB 인프라 구축
+- [ ] DGX-Spark의 멀티 GPU와 다중 워커(Multi-processing)를 활용한 초고속 파이프라인 구현
+
+---
+
 ## ❓ 자주 묻는 질문 (FAQ)
 
 - **Q. Agentic AI란 무엇인가요?**

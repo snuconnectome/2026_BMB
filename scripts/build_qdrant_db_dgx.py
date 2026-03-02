@@ -7,7 +7,7 @@ from typing import List
 from dotenv import load_dotenv
 
 from langchain_core.documents import Document
-from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_qdrant import QdrantVectorStore, FastEmbedSparse, RetrievalMode
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
@@ -50,17 +50,11 @@ def process_document(doc: Document) -> List[Document]:
 
 def build_qdrant_hybrid_db(num_workers: int):
     print("=" * 60)
-    print("🚀 DGX-Spark Hybrid Vector DB Ingestion (Qdrant + OpenAI) 🚀")
+    print("🚀 DGX-Spark Hybrid Vector DB Ingestion (Qdrant + Gemini) 🚀")
     print("=" * 60)
     
-    # Check OpenAI API Key
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("[ERROR] OPENAI_API_KEY environment variable is not set!")
-        print("Please set it using: export OPENAI_API_KEY='your-key'")
-        sys.exit(1)
-
-    print("[INFO] Initializing High-Res Embeddings (OpenAI text-embedding-3-small)...")
-    dense_embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+    print("[INFO] Initializing High-Res Embeddings (HuggingFace BAAI/bge-small-en-v1.5)...")
+    dense_embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
     
     print("[INFO] Initializing Sparse Embeddings (FastEmbed BM25)...")
     sparse_embeddings = FastEmbedSparse(model_name="Qdrant/bm25")

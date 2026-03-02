@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 
 # Load API Key from .env file
-load_dotenv()
+load_dotenv("/Users/jiookcha/Documents/git/2026_BMB/.env", override=True)
 
 def main():
     print("==============================================")
@@ -21,7 +21,7 @@ def main():
     print("==============================================\n")
     
     # Initialize real Gemini Pro model for reasoning
-    print("Initializing Gemini 3.1 Pro Model (Latest 2026 Edition)...")
+    print("Initializing Gemini 2.5 Pro Model...")
     try:
         real_llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.2)
     except Exception as e:

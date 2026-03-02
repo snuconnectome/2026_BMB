@@ -13,6 +13,10 @@
 이 저장소에는 코스 운영과 과제 진행을 돕는 여러 AI 에이전트가 준비되어 있습니다.
 
 - **콘텐츠 생성기 (Content Generator)**: 매주 주간 챌린지 및 학습 자료의 초안을 생성합니다.
+- **롸이팅 도사 (Writing Master)**: `Sequential Thinking`과 `NotebookLM`을 결합한 고성능 문서 생성 파이프라인입니다.
+- **O(1) 워크플로우 최적화**: 에이전트의 검색 시간을 최소화하기 위해 핵심 워크플로우를 최상위 `.agents/` 경로에 배치했습니다.
+- **거인 어깨에 올라타기 (Shoulders of Giants)**: 과거 과학자의 페르소나를 AI로 구축하고 대화하는 심층 인지 프로젝트입니다.
+  - [프로젝트 가이드](docs/giants_assignment_guide.md) | [시스템 설계 가이드](docs/giants_system_design.md)
 - **eTL 평가기 (eTL Evaluator)**: 학생들이 eTL에 올린 기여도를 분석하고 프롬프트 오딧(Prompt Audit)을 도와줍니다.
 - **벡터 데이터베이스 (Vector DB)**: RAG(Retrieval-Augmented Generation) 시스템을 위해 코스 관련 문서와 지식을 임베딩하고 검색 가능한 형태로 관리합니다.
 - **AI-CoScientist (동료 연구자 AI)**: 학생들의 아이디어를 발전시키기 위해 시뮬레이션 기반 피드백을 제공합니다.
@@ -29,6 +33,7 @@
 시스템을 원활하게 사용하기 위해서는 아래의 요구사항이 설치되어 있어야 합니다.
 
 - **Python 3.10 이상**: Python이 없다면 [공식 홈페이지](https://www.python.org/)에서 설치해주세요.
+- **Fabric**: 원격 서버(DGX-Spark) 제어 및 자동화를 위해 필요합니다. (`pip install fabric`)
 - **Git**: 저장소를 클론(Clone)하기 위해 필요합니다.
 
 ### 2단계: NotebookLM CLI 툴 설치
@@ -77,14 +82,67 @@ pip install -r requirements.txt
 python scripts/build_vector_db.py
 ```
 
-## 🚀 2026 Vector DB SOTA 업그레이드 To-Do
+## 🚀 하이브리드 Vector DB 파이프라인 및 아키텍처
 
-현재 로컬 프로토타입 상태인 Vector DB 파이프라인을 2026년 기준 최고의 성능을 위해 NVIDIA DGX-Spark 환경으로 마이그레이션하고 고도화하는 작업 목록입니다. 상세한 계획은 [docs/VectorDB_Improvement_Plan.md](docs/VectorDB_Improvement_Plan.md)를 참조하세요.
+로컬 PC의 연산 한계를 극복하기 위해, 대규모 논문 및 수업 자료의 임베딩은 고성능 서버(DGX-Spark)에서 처리하고, 완성된 DB를 기반으로 실시간 검색(RAG)은 로컬 Mac에서 오프라인/무과금으로 수행하는 **초고속 하이브리드 파이프라인**이 구축되어 있습니다.
 
-- [ ] 구조화된 데이터(엑셀표) 및 마크다운 논리적 청킹 로직 구현 (Semantic Chunking)
-- [ ] 고해상도 임베딩 모델(예: OpenAI, Upstage, 또는 DGX GPU 활용 OSS)로 교체
-- [ ] Qdrant 등 하이브리드 검색 지원 Vector DB 인프라 구축
-- [ ] DGX-Spark의 멀티 GPU와 다중 워커(Multi-processing)를 활용한 초고속 파이프라인 구현
+### 파이프라인 구성도 (Architecture)
+
+1. **DGX-Spark (DB Ingestion 단계)**:
+   - `langchain-huggingface` 기반의 최첨단 오픈소스 초고해상도 모델 (`BAAI/bge-small-en-v1.5`) 을 사용하여 텍스트 임베딩.
+   - 구조화된 데이터(엑셀 등) 및 마크다운의 논리적 청킹(Semantic Chunking) 처리.
+   - 8-worker 멀티프로세싱을 통한 Qdrant Hybrid DB 고속 렌더링.
+2. **로컬 Mac (RAG Retrieval 단계)**:
+   - 서버에서 구워진 DB 파일 폴더(`data/vector_store/qdrant_db`)만 `rsync`로 로컬 환경으로 복사.
+   - API 통신 지연시간이나 과금 없이, 로컬 메모리에서 즉각적인 하이브리드 검색 (Dense + Sparse BM25) 수행.
+
+### 사용 방법 및 예시 (Local RAG)
+
+DGX에서 컴파일된 DB를 로컬에 동기화했다면, 아래와 같이 제공되는 데모 스크립트를 통해 언제든 오프라인 검색 코드를 실행할 수 있습니다.
+
+**스크립트 실행 명령어:**
+
+```bash
+python scripts/demo_local_rag.py
+```
+
+**파이썬 코드 활용 예시:**
+
+```python
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_qdrant import QdrantVectorStore, FastEmbedSparse, RetrievalMode
+
+# 1. 로컬 임베딩 모델 로드 (API 과금 및 지연 통신 없음)
+dense_embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+sparse_embeddings = FastEmbedSparse(model_name="Qdrant/bm25")
+
+# 2. 다운로드 받은 로컬 DB 폴더 오프라인 마운트
+qdrant = QdrantVectorStore.from_existing_collection(
+    embedding=dense_embeddings,
+    sparse_embedding=sparse_embeddings,
+    retrieval_mode=RetrievalMode.HYBRID,
+    path="data/vector_store/qdrant_db",
+    collection_name="bmb_2026_hybrid",
+)
+
+# 3. 0.01초 대기시간의 초고속 RAG 검색 수행!
+retriever = qdrant.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+results = retriever.invoke("오리엔테이션 수업의 핵심 주제와 준비물은 무엇인지 알려줘.")
+
+for doc in results:
+    print(doc.page_content)
+```
+
+---
+
+## 🛰 하이브리드 오케스트레이션 (Local ↔ DGX-Spark)
+
+본 저장소는 **Fabric**을 사용하여 로컬 작업과 서버 작업을 하나의 파이프라인으로 연결합니다.
+
+- 상세 가이드: [Hybrid Orchestration Guide](docs/hybrid_orchestration_guide.md)
+- 핵심 명령어:
+  - `fab sync`: 로컬 코드와 문서를 DGX 서버로 동기화.
+  - `fab build-rag`: DGX 서버의 GPU를 사용하여 RAG용 Vector DB 구축 및 결과 회수.
 
 ---
 

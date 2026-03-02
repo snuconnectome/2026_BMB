@@ -12,9 +12,13 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHea
 
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from data_loader import load_syllabus_excel, load_text_document
 
-DB_PATH = "/Users/jiookcha/Documents/git/2026_BMB/data/vector_store/bmb_index_dgx"
+# Resolve paths relative to the current script's directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.path.join(BASE_DIR, "data", "vector_store", "bmb_index_dgx")
 
 def process_document(doc: Document) -> List[Document]:
     """
@@ -76,15 +80,16 @@ def build_vector_db_dgx(batch_size: int, num_workers: int):
     
     print("[INFO] Loading raw documents into memory...")
     # Adjust paths relative to the project root
-    syllabus_docs = load_syllabus_excel("/Users/jiookcha/Documents/git/2026_BMB/2026시간표.xlsx")
+    syllabus_docs = load_syllabus_excel(os.path.join(BASE_DIR, "2026시간표.xlsx"))
     
     # We will try to load the master plan. Note: using the same absolute path as prototype
-    master_plan_path = "/Users/jiookcha/.gemini/antigravity/brain/775687b4-5e5a-4ca6-9b57-77ba50c2fb02/master_plan.md"
+    master_plan_path = os.path.join(BASE_DIR, "bmb_course_brainstorming_chat_log.md")
     try:
         plan_docs = load_text_document(master_plan_path)
     except Exception as e:
         print(f"[WARNING] Could not load master plan: {e}")
         plan_docs = []
+
         
     all_raw_docs = syllabus_docs + plan_docs
 

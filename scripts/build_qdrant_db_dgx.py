@@ -4,12 +4,17 @@ import argparse
 import multiprocessing
 from typing import List
 
+from dotenv import load_dotenv
+
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
 from langchain_qdrant import QdrantVectorStore, FastEmbedSparse, RetrievalMode
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Ensure local data_loader can be imported
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))

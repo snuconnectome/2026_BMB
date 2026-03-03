@@ -77,3 +77,35 @@
 2. 수집된 이메일로 NotebookLM 실시간 초대 스크립트 또는 프로세스 준비
 3. 강연자 및 학생 PC 환경설정 (Cursor 설치, NotebookLM 공용 링크 접근 확인)
 4. (선택) 프롬프트 복붙용 짧은 가이드 핸드아웃 배포
+
+---
+
+## 🛠️ [부록] Cursor + 수업용 DeepSeek 설정 가이드 (학생 배포용)
+
+수업용 API(LiteLLM)를 Cursor에서 쓰려면 아래 순서대로 하면 됩니다.
+
+### 1. Cursor 설치 (이미 있으면 생략)
+
+1. [cursor.com](https://www.cursor.com) 접속 → 본인 OS용 **다운로드**
+2. 설치 후 실행 → **이메일 또는 GitHub**로 무료 계정 생성·로그인
+
+### 2. Custom model 선택 후 값 입력
+
+1. **Settings** (⌘+, / Ctrl+,) 열기 → **Models** 또는 **Features** → **API Keys** / **OpenAI** 로 이동
+2. 모델 옵션에서 **Custom model** (또는 **OpenAI-compatible** / **Use custom API**) 을 선택
+3. 아래 값을 입력합니다.
+
+| 항목 | 입력 |
+|------|------|
+| **OpenAI API Key** | ON 으로 두고, 조교가 준 **개인 API 키** (`sk-...`) 붙여넣기 |
+| **Override OpenAI Base URL** | ON 으로 두고, `https://cadgily-unobstinate-breana.ngrok-free.dev/v1` |
+| **Model** | `deepseek/deepseek-v3.2` 또는 `deepseek/deepseek-r1-distill-qwen-32b` |
+
+1. **Save** / **Verify** 후 설정 창 닫기.
+
+### 3. 확인
+
+Cursor 채팅에서 짧은 메시지(예: "안녕") 보내서 응답이 오면 성공입니다.
+
+- **401에러** → API 키 확인 (오타·공백 없이)
+- **연결 실패** → Base URL 끝에 `/v1` 있는지, 조교에게 ngrok 켜져 있는지 문의

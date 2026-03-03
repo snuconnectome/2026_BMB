@@ -1,0 +1,9 @@
+Title: Over the Quantum Rainbow: Explaining Hybrid Quantum Reinforcement Learning. (2024)
+Authors: 
+Year: 2024
+DOI: 10.1109/QCE60285.2024.00185
+Journal: 
+
+--- Abstract ---
+
+In the realm of artificial intelligence, deep rein-forcement learning (RL) agents struggle with generalizability and require substantial computational resources, unlike humans who easily adapt and generalize across tasks. To address these challenges, we introduce Quantum Rainbow, a hybrid algorithm that leverages the neural mechanisms of human decision-making and the efficiency of quantum computing. Quantum Rainbow combines variational quantum circuits with the Rainbow Deep Q-Network (DQN) model to create a novel approach in rein-forcement learning that integrates quantum principles into deep learning paradigms. We evaluate our model using behavioral experiments through the Iowa Gambling Task and 4-Armed Bandit Task. Our investigations reveal a significant relationship between the architecture of quantum circuits and the performance of quantum RL agents. Specifically, using causal discovery methods, we demonstrate the critical role of quantum entanglement in enhancing model performance. These findings not only show promising results but also pave the way for future explorations into optimizing quantum circuit architectures for reinforcement learning applications. This study underscores the potential of quantum-enhanced algorithms to achieve “quantum advantage” by addressing fundamental limitations in conventional deep RL methods.

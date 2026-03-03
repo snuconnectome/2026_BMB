@@ -1,0 +1,9 @@
+Title: The sexual brain, genes, and cognition: A machine-predicted brain sex score explains individual differences in cognitive intelligence and genetic influence in young children. (2022)
+Authors: 
+Year: 2022
+DOI: 10.1002/hbm.25888
+Journal: 
+
+--- Abstract ---
+
+Sex impacts the development of the brain and cognition differently across individuals. However, the literature on brain sex dimorphism in humans is mixed. We aim to investigate the biological underpinnings of the individual variability of sexual dimorphism in the brain and its impact on cognitive performance. To this end, we tested whether the individual difference in brain sex would be linked to that in cognitive performance that is influenced by genetic factors in prepubertal children (N = 9,658, ages 9–10 years old; the Adolescent Brain Cognitive Development study). To capture the interindividual variability of the brain, we estimated the probability of being male or female based on the brain morphometry and connectivity features using machine learning (herein called a brain sex score). The models accurately classified the biological sex with a test ROC–AUC of 93.32%. As a result, a greater brain sex score correlated significantly with greater intelligence (pfdr < .001, ηp2 = .011–.034; adjusted for covariates) and higher cognitive genome‐wide polygenic scores (GPSs) (pfdr < .001, ηp2  < .005). Structural equation models revealed that the GPS‐intelligence association was significantly modulated by the brain sex score, such that a brain with a higher maleness score (or a lower femaleness score) mediated a positive GPS effect on intelligence (indirect effects = .006–.009; p = .002–.022; sex‐stratified analysis). The finding of the sex modulatory effect on the gene–brain–cognition relationship presents a likely biological pathway to the individual and sex differences in the brain and cognitive performance in preadolescence.

@@ -1,0 +1,9 @@
+Title: Resting-state theta-phase gamma amplitude coupling as a biomarker for the transdiagnostic dimensional approach in psychiatric disorders. (2023)
+Authors: 
+Year: 2023
+DOI: 10.1111/pcn.13554
+Journal: 
+
+--- Abstract ---
+
+Psychiatric diagnosis has relied on categorical syndromes that result in biological heterogeneity within diagnoses, symptom overlap between diagnoses, and unsatisfactory treatment responses. Thus, a transdiagnostic dimensional approach is essential to neurobiological pathophysiology-based diagnostics and therapeutics. Given that human brain activity occurs instantaneously with moment-by-moment changes, resting-state electroencephalography (rs-EEG) with a very high temporal resolution should be investigated as a biosignature for dimensional approaches in psychiatry. Resting-state theta-phase gamma amplitude coupling (rs-TGC) is a type of cross-frequency coupling where the theta phase modulates gamma amplitude, which is suggested as a mechanism for neural communication in the human brain, and its relationship with the spectrum of psychiatric symptoms has been shown in several previous studies. To test the biological feasibility of the dimensional diagnostic approach and to identify electrophysiological biomarkers reflective of symptom dimensions in psychiatric disorders, we performed clustering analysis of patients with various psychiatric diagnoses based on their spectrum of symptomatic severity and compared source-level rs-TGC across the identified symptom dimension clusters. First, we hypothesized that patients with various psychiatric disorders would form symptom dimension clusters regardless of their categorical diagnoses. Second, we hypothesized that there would be a spatially distinct rs-TGC profile across the identified symptom dimension clusters that would reflect each

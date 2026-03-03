@@ -1,0 +1,9 @@
+Title: Maturity of gray matter structures and white matter connectomes, and their relationship with psychiatric symptoms in youth. (2021)
+Authors: 
+Year: 2021
+DOI: 10.1002/hbm.25565
+Journal: 
+
+--- Abstract ---
+
+Brain predicted age difference, or BrainPAD, compares chronological age to an age estimate derived by applying machine learning (ML) to MRI brain data. BrainPAD studies in youth have been relatively limited, often using only a single MRI modality or a single ML algorithm. Here, we use multimodal MRI with a stacked ensemble ML approach that iteratively applies several ML algorithms (AutoML). Eligible participants in the Healthy Brain Network (N = 489) were split into training and test sets. Morphometry estimates, white matter connectomes, or both were entered into AutoML to develop BrainPAD models. The best model was then applied to a held‐out evaluation dataset, and associations with psychometrics were estimated. Models using morphometry and connectomes together had a mean absolute error of 1.18 years, outperforming models using a single MRI modality. Lower BrainPAD values were associated with more symptoms on the CBCL (pcorr = .012) and lower functioning on the Children's Global Assessment Scale (pcorr = .012). Higher BrainPAD values were associated with better performance on the Flanker task (pcorr = .008). Brain age prediction was more accurate using ComBat‐harmonized brain data (MAE = 0.26). Associations with psychometric measures remained consistent after ComBat harmonization, though only the association with CGAS reached statistical significance in the reduced sample. Our findings suggest that BrainPAD scores derived from unharmonized multimodal MRI data using an ensemble ML approach may offer a clinically relevant indicator of psychiatric and cognitive functioning in youth.

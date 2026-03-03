@@ -1,0 +1,10 @@
+Title: Identifying Prepubertal Children with Risk for Suicide Using Deep Neural Network Trained on Multimodal Brain Imaging-Derived Phenotypes. (2021)
+Authors: 
+Year: 2021
+DOI: 10.1101/2021.10.10.21264580
+Journal: 
+
+--- Abstract ---
+
+Abstract
+                Suicide is among the leading causes of death in youth worldwide. Early identification of children with high risk for suicide is key to effective screening and prevention strategies. Brain imaging can show functional or structural abnormalities related to youth suicidality, but literature is scarce. Here we tested the extent to which brain imaging is useful in predicting suicidal risk in children. In the largest to date, multi-site, multi-ethnic, epidemiological developmental samples in the US (N = 6,172; the ABCD study), we trained and validated machine learning models and deep neural networks on the multimodal brain imaging derived phenotypes (morphometry, white matter connectivity, functional activation, and connectivity) along with behavioral and self-reported psychological questionnaire data. The model trained on diffusion white matter connectomes showed the best performance (test AUC-ROC = 74.82) with a one percentage increase compared with the baseline model trained on behavioral and psychological data (test AUC-ROC = 74.16). Models trained on other MRI modalities showed similar but slightly lower performances. Model interpretation showed the important brain features involved in attention, emotion regulation, and motor coordination, such as the anterior cingulate cortex, temporal gyrus, and precentral gyrus. It further showed that the interaction of brain features with depression and impulsivity measures contributed to the optimal prediction of youth suicidality. This study demonstrates the potential utility of a multimodal brain imaging approach to youth suicidality prediction and uncovers the relationships of the psychological and multi-dimensional and multi-modal neural features to youth suicidality.

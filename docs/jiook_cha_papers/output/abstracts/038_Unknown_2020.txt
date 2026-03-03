@@ -1,0 +1,9 @@
+Title: Concordance in parent and offspring cortico-basal ganglia white matter connectivity varies by parental history of major depressive disorder and early parental care. (2020)
+Authors: 
+Year: 2020
+DOI: 10.1093/scan/nsaa118
+Journal: 
+
+--- Abstract ---
+
+Abstract Social behavior is transmitted cross-generationally through coordinated behavior within attachment bonds. Parental depression and poor parental care are major risks for disruptions of such coordination and are associated with offspring’s psychopathology and interpersonal dysfunction. Given the key role of the cortico-basal ganglia (CBG) circuits in social communication, we examined similarities (concordance) of parent–offspring CBG white matter (WM) connections and how parental history of major depressive disorder (MDD) and early parental care moderate these similarities. We imaged 44 parent–offspring dyads and investigated WM connections between basal-ganglia seeds and selected regions in temporal cortex using diffusion tensor imaging (DTI) tractography. We found significant concordance in parent–offspring strength of CBG WM connections, moderated by parental lifetime-MDD and care. The results showed diminished neural concordance among dyads with a depressed parent and that better parental care predicted greater concordance, which also provided a protective buffer against attenuated concordance among dyads with a depressed parent. Our findings provide the first neurobiological evidence of concordance between parents-offspring in WM tracts and that concordance is diminished in families where parents have lifetime-MDD. This disruption may be a risk factor for intergenerational transmission of psychopathology. Findings emphasize the long-term role of early caregiving in shaping the neural concordance among at-risk and affected dyads.

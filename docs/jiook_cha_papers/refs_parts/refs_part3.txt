@@ -1,0 +1,15 @@
+31	BROAD DEPRESSION POLYGENIC RISK SCORE PREDICTS DENTATE GYRUS MORPHOLOGY, DEPRESSIVE SYMPTOMS AND SUICIDE ATTEMPTS IN OFFSPRING AT HIGH FAMILY RISK FOR DEPRESSION. (2022). DOI: 10.1016/j.euroneuro.2022.07.471
+32	The sexual brain, genes, and cognition: A machine-predicted brain sex score explains individual differences in cognitive intelligence and genetic influence in young children. (2022). DOI: 10.1002/hbm.25888
+33	Association of Genome-Wide Polygenic Scores for Multiple Psychiatric and Common Traits in Preadolescent Youths at Risk of Suicide. (2022). DOI: 10.1001/jamanetworkopen.2021.48585
+34	Maturity of gray matter structures and white matter connectomes, and their relationship with psychiatric symptoms in youth. (2021). DOI: 10.1002/hbm.25565
+35	Genes, Early Life Stress, Brains, and Cognition: A Moderated Mediation Analysis. (2021). DOI: 10.1016/J.BIOPSYCH.2021.02.828
+36	Identifying Prepubertal Children with Risk for Suicide Using Deep Neural Network Trained on Multimodal Brain Imaging-Derived Phenotypes. (2021). DOI: 10.1101/2021.10.10.21264580
+37	Genome-wide Polygenic Scores for Multiple Psychiatric and Common Traits Identify Preadolescent Youth with Risk for Suicide. (2020). DOI: 10.21203/rs.3.rs-136949/v1
+38	Concordance in parent and offspring cortico-basal ganglia white matter connectivity varies by parental history of major depressive disorder and early parental care. (2020). DOI: 10.1093/scan/nsaa118
+39	Differences in brain structure and function in children with the FTO obesity-risk allele. (2020). DOI: 10.1002/osp4.417
+40	GANBERT: Generative Adversarial Networks with Bidirectional Encoder Representations from Transformers for MRI to PET synthesis. (2020). arXiv: 2008.04393
+41	GANDALF: Generative Adversarial Networks with Discriminator-Adaptive Loss Fine-tuning for Alzheimer's Disease Diagnosis from MRI. (2020). DOI: 10.1007/978-3-030-59713-9_66
+42	Altered Dentate Gyrus Microstructure in Individuals at High Familial Risk for Depression Predicts Future Symptoms. (2020). DOI: 10.1016/j.bpsc.2020.06.006
+43	Machine learning prediction of incidence of Alzheimer's disease using large-scale administrative health data. (2020). DOI: 10.1038/s41746-020-0256-0
+44	Altered White Matter Microstructural Organization in Post-Traumatic Stress Disorder across 3,047 Adults: Results from the PGC-ENIGMA PTSD Consortium. (2019). DOI: 10.1038/s41380-019-0631-x
+45	Electronic Health Records Based Prediction of Future Incidence of Alzheimer's Disease Using Machine Learning. (2019). DOI: 10.1101/625582

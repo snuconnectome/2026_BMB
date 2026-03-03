@@ -1,0 +1,25 @@
+Title: Differences in White Matter Structural Networks in Family Risk of Major Depressive Disorder and Suicidality: A Connectome Analysis. (2023)
+Authors: 
+Year: 2023
+DOI: 10.1101/2023.09.07.23295211
+Journal: 
+
+--- Abstract ---
+
+Abstract
+                
+                  Background
+                  Depression and suicide are leading global causes of disability and death and are highly familial. Family and individual history of depression are associated with neurobiological differences including decreased white matter connectivity; however, this has only been shown for individual regions. We use graph theory models to account for the network structure of the brain with high levels of specialization and integration and examine whether they differ by family history of depression or of suicidality within a three-generation longitudinal family study with well-characterized clinical histories.
+                
+                
+                  Methods
+                  Clinician interviews across three generations were used to classify family risk of depression and suicidality. Then, we created weighted network models using 108 cortical and subcortical regions of interest for 96 individuals using diffusion tensor imaging derived fiber tracts. Global and local summary measures (clustering coefficient, characteristic path length, and global and local efficiencies) and network-based statistics were utilized for group comparison of family history of depression and, separately, of suicidality, adjusted for personal psychopathology.
+                
+                
+                  Results
+                  Clustering coefficient (connectivity between neighboring regions) was lower in individuals at high family risk of depression and was associated with concurrent clinical symptoms. Network-based statistics showed hypoconnected subnetworks in individuals with high family risk of depression and of suicidality, after controlling for personal psychopathology. These subnetworks highlighted cortical-subcortical connections including between the superior frontal cortex, thalamus, precuneus, and putamen.
+                
+                
+                  Conclusions
+                  Family history of depression and of suicidality are associated with hypoconnectivity between subcortical and cortical regions, suggesting brain-wide impaired information processing, even in those personally unaffected.
+                

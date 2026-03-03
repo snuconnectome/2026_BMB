@@ -1,0 +1,9 @@
+Title: Early life stress modulates the genetic influence on brain structure and cognitive function in children. (2023)
+Authors: 
+Year: 2023
+DOI: 10.1016/j.heliyon.2023.e23345
+Journal: 
+
+--- Abstract ---
+
+The enduring influence of early life stress (ELS) on brain and cognitive development has been widely acknowledged, yet the precise mechanisms underlying this association remain elusive. We hypothesize that ELS might disrupt the genome-wide influence on brain morphology and connectivity development, consequently exerting a detrimental impact on children's cognitive ability. We analyzed the multimodal data of DNA genotypes, brain imaging (structural and diffusion MRI), and neurocognitive battery (NIH Toolbox) of 4276 children (ages 9–10 years, European ancestry) from the Adolescent Brain Cognitive Development (ABCD) study. The genome-wide influence on cognitive function was estimated using the polygenic score (GPS). By using brain morphometry and tractography, we identified the brain correlates of the cognition GPSs. Statistical analyses revealed relationships for the gene-brain-cognition pathway. The brain structural variance significantly mediated the genetic influence on cognition (indirect effect = 0.016, PFDR < 0.001). Of note, this gene-brain relationship was significantly modulated by abuse, resulting in diminished cognitive capacity (Index of Moderated Mediation = −0.007; 95 % CI = −0.012 ∼ −0.002). Our results support a novel gene-brain-cognition model likely elucidating the long-lasting negative impact of ELS on children's cognitive development.

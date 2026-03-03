@@ -1,0 +1,22 @@
+Title: Structural neural markers of response to cognitive behavioral therapy in pediatric obsessive-compulsive disorder. (2019)
+Authors: 
+Year: 2019
+DOI: 10.1111/jcpp.13191
+Journal: 
+
+--- Abstract ---
+
+BACKGROUND
+Cognitive behavioral therapy (CBT) is an effective, first-line treatment for pediatric obsessive-compulsive disorder (OCD). While neural predictors of treatment outcomes have been identified in adults with OCD, robust predictors are lacking for pediatric patients. Herein, we sought to identify brain structural markers of CBT response in youth with OCD.
+
+
+METHODS
+Twenty-eight children/adolescents with OCD and 27 matched healthy participants (7- to 18-year-olds, M = 11.71 years, SD = 3.29) completed high-resolution structural and diffusion MRI (all unmedicated at time of scanning). Patients with OCD then completed 12-16 sessions of CBT. Subcortical volume and cortical thickness were estimated using FreeSurfer. Structural connectivity (streamline counts) was estimated using MRtrix.
+
+
+RESULTS
+Thinner cortex in nine frontoparietal regions significantly predicted improvement in Children's Yale-Brown Obsessive-Compulsive Scale (CY-BOCS) scores (all ts > 3.4, FDR-corrected ps < .05). These included middle and superior frontal, angular, lingual, precentral, superior temporal, and supramarginal gyri (SMG). Vertex-wise analyses confirmed a significant left SMG cluster, showing large effect size (Cohen's d = 1.42) with 72.22% specificity and 90.00% sensitivity in predicting CBT response. Ten structural connections between cingulo-opercular regions exhibited fewer streamline counts in OCD (all ts > 3.12, Cohen's ds > 0.92) compared with healthy participants. These connections predicted post-treatment CY-BOCS scores, beyond pretreatment severity and demographics, though not above and beyond cortical thickness.
+
+
+CONCLUSIONS
+The current study identified group differences in structural connectivity (reduced among cingulo-opercular regions) and cortical thickness predictors of CBT response (thinner frontoparietal cortices) in unmedicated children/adolescents with OCD. These data suggest, for the first time, that cortical and white matter features of task control circuits may be useful in identifying which pediatric patients respond best to individual CBT.

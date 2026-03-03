@@ -1,0 +1,9 @@
+Title: Association of Genome-Wide Polygenic Scores for Multiple Psychiatric and Common Traits in Preadolescent Youths at Risk of Suicide. (2022)
+Authors: 
+Year: 2022
+DOI: 10.1001/jamanetworkopen.2021.48585
+Journal: 
+
+--- Abstract ---
+
+Key Points Question Are genome-wide polygenic scores for specific psychiatric and common traits associated with high risk of suicide among preadolescent youths? Findings In this cohort study of 11 869 preadolescent youths in the US, multiple genome-wide polygenic scores were significantly associated with suicidal thoughts and behaviors (ideation or attempts); specific genome-wide polygenic scores associated with the risk of suicide included attention-deficit/hyperactivity disorder, general happiness, and posttraumatic stress disorder. Meaning These results suggest that the genomic approach may be useful for identifying children at high risk for suicidal thoughts and behaviors.

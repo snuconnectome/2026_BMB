@@ -1,0 +1,60 @@
+1	Differences in white matter structural networks in family risk of major depressive disorder and suicidality: A connectome analysis. (2025). DOI: 10.1016/j.jad.2025.120386
+2	Resting-State fMRI Analysis Using Quantum Time-Series Transformer. (2025). arXiv: 2509.00711
+3	DIVER-0 : A Fully Channel Equivariant EEG Foundation Model. (2025). arXiv: 2507.14141
+4	Spatiotemporal Learning of Brain Dynamics from fMRI Using Frequency-Specific Multi-Band Attention for Cognitive and Psychiatric Applications. (2025). arXiv: 2503.23394
+5	Individual Differences in Effects of Stressful Life Events on Childhood ADHD: Genetic, Neural, and Familial Contributions. (2025). DOI: 10.1101/2025.03.18.25324229
+6	Addressing the Current Challenges of Quantum Machine Learning through Multi-Chip Ensembles. (2025). arXiv: 2505.08782
+7	It's-A-Me, Quantum Mario: Scalable Quantum Reinforcement Learning with Multi-Chip Ensembles. (2025). DOI: 10.1109/QAI63978.2025.00063
+8	SEED: Towards More Accurate Semantic Evaluation for Visual Brain Decoding. (2025). arXiv: 2503.06437
+9	Revisiting Your Memory: Reconstruction of Affect-Contextualized Memory via EEG-guided Audiovisual Generation. (2024). DOI: 10.1145/3746277.3760413
+10	Macro2Micro: Cross-modal Magnetic Resonance Imaging Synthesis Leveraging Multi-scale Brain Structures. (2024). DOI: 10.48550/arXiv.2412.11277
+11	Polygenic architecture of brain structure and function, behaviors, and psychopathologies in children. (2024). DOI: 10.1101/2024.05.22.595444
+12	Gene–environment pathways to cognitive intelligence and psychotic-like experiences in children. (2024). DOI: 10.7554/eLife.88117
+13	White matter diffusion estimates in obsessive-compulsive disorder across 1653 individuals: machine learning findings from the ENIGMA OCD Working Group. (2024). DOI: 10.1038/s41380-023-02392-6
+14	Over the Quantum Rainbow: Explaining Hybrid Quantum Reinforcement Learning. (2024). DOI: 10.1109/QCE60285.2024.00185
+15	Polygenic scores for psychiatric traits mediate the impact of multigenerational history for depression on offspring psychopathology. (2024). DOI: 10.21203/rs.3.rs-4264742/v1
+16	Awe is characterized as an ambivalent experience in the human behavior and cortex: integrated virtual reality-electroencephalogram study. (2024). DOI: 10.1101/2024.08.18.608520
+17	Subcortical volumes in offspring with a multigenerational family history of depression - A study across two cohorts. (2024). DOI: 10.1016/j.jad.2024.07.107
+18	Quantum Privacy Aggregation of Teacher Ensembles (QPATE) for Privacy Preserving Quantum Machine Learning. (2024). arXiv: 2401.07464
+19	Predicting task-related brain activity from resting-state brain dynamics with fMRI Transformer. (2024). DOI: 10.1101/2024.05.29.596544
+20	Differences in White Matter Structural Networks in Family Risk of Major Depressive Disorder and Suicidality: A Connectome Analysis. (2023). DOI: 10.1101/2023.09.07.23295211
+21	AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer. (2023). arXiv: 2312.05928
+22	Early life stress modulates the genetic influence on brain structure and cognitive function in children. (2023). DOI: 10.1016/j.heliyon.2023.e23345
+23	Resting-state theta-phase gamma amplitude coupling as a biomarker for the transdiagnostic dimensional approach in psychiatric disorders. (2023). DOI: 10.1111/pcn.13554
+24	Dentate Gyrus Microstructure is associated with Resilience after Exposure to Maternal Stress Across Two Human Cohorts. (2023). DOI: 10.1016/j.biopsych.2023.06.026
+25	SwiFT: Swin 4D fMRI Transformer. (2023). arXiv: 2307.05916
+26	Overestimated prediction using polygenic prediction derived from summary statistics. (2023). DOI: 10.1186/s12863-023-01151-4
+27	Therapeutic Effect of Repetitive Transcranial Magnetic Stimulation for Post-stroke Vascular Cognitive Impairment: A Prospective Pilot Study. (2022). DOI: 10.3389/fneur.2022.813597
+28	Overestimated Polygenic Prediction due to Overlapping Subjects in Genetic Datasets. (2022). DOI: 10.1101/2022.01.19.476997
+29	Maternal age at birth and child attention-deficit hyperactivity disorder: causal association or familial confounding? (2022). DOI: 10.1111/jcpp.13726
+30	Cognitive Capacity Genome-Wide Polygenic Scores Identify Individuals with Slower Cognitive Decline in Aging. (2022). DOI: 10.3390/genes13081320
+31	BROAD DEPRESSION POLYGENIC RISK SCORE PREDICTS DENTATE GYRUS MORPHOLOGY, DEPRESSIVE SYMPTOMS AND SUICIDE ATTEMPTS IN OFFSPRING AT HIGH FAMILY RISK FOR DEPRESSION. (2022). DOI: 10.1016/j.euroneuro.2022.07.471
+32	The sexual brain, genes, and cognition: A machine-predicted brain sex score explains individual differences in cognitive intelligence and genetic influence in young children. (2022). DOI: 10.1002/hbm.25888
+33	Association of Genome-Wide Polygenic Scores for Multiple Psychiatric and Common Traits in Preadolescent Youths at Risk of Suicide. (2022). DOI: 10.1001/jamanetworkopen.2021.48585
+34	Maturity of gray matter structures and white matter connectomes, and their relationship with psychiatric symptoms in youth. (2021). DOI: 10.1002/hbm.25565
+35	Genes, Early Life Stress, Brains, and Cognition: A Moderated Mediation Analysis. (2021). DOI: 10.1016/J.BIOPSYCH.2021.02.828
+36	Identifying Prepubertal Children with Risk for Suicide Using Deep Neural Network Trained on Multimodal Brain Imaging-Derived Phenotypes. (2021). DOI: 10.1101/2021.10.10.21264580
+37	Genome-wide Polygenic Scores for Multiple Psychiatric and Common Traits Identify Preadolescent Youth with Risk for Suicide. (2020). DOI: 10.21203/rs.3.rs-136949/v1
+38	Concordance in parent and offspring cortico-basal ganglia white matter connectivity varies by parental history of major depressive disorder and early parental care. (2020). DOI: 10.1093/scan/nsaa118
+39	Differences in brain structure and function in children with the FTO obesity-risk allele. (2020). DOI: 10.1002/osp4.417
+40	GANBERT: Generative Adversarial Networks with Bidirectional Encoder Representations from Transformers for MRI to PET synthesis. (2020). arXiv: 2008.04393
+41	GANDALF: Generative Adversarial Networks with Discriminator-Adaptive Loss Fine-tuning for Alzheimer's Disease Diagnosis from MRI. (2020). DOI: 10.1007/978-3-030-59713-9_66
+42	Altered Dentate Gyrus Microstructure in Individuals at High Familial Risk for Depression Predicts Future Symptoms. (2020). DOI: 10.1016/j.bpsc.2020.06.006
+43	Machine learning prediction of incidence of Alzheimer's disease using large-scale administrative health data. (2020). DOI: 10.1038/s41746-020-0256-0
+44	Altered White Matter Microstructural Organization in Post-Traumatic Stress Disorder across 3,047 Adults: Results from the PGC-ENIGMA PTSD Consortium. (2019). DOI: 10.1038/s41380-019-0631-x
+45	Electronic Health Records Based Prediction of Future Incidence of Alzheimer's Disease Using Machine Learning. (2019). DOI: 10.1101/625582
+46	Structural neural markers of response to cognitive behavioral therapy in pediatric obsessive-compulsive disorder. (2019). DOI: 10.1111/jcpp.13191
+47	Diagnosis and prognosis of Alzheimer's disease using brain morphometry and white matter connectomes. (2018). DOI: 10.1016/j.nicl.2019.101859
+48	From Anxious to Reckless: A Control Systems Approach Unifies Prefrontal-Limbic Regulation Across the Spectrum of Threat Detection. (2017). DOI: 10.3389/fnsys.2017.00018
+49	The Effects of Obstructive Sleep Apnea Syndrome on the Dentate Gyrus and Learning and Memory in Children. (2017). DOI: 10.1523/JNEUROSCI.3583-16.2017
+50	Increased Default Mode Network Connectivity in Individuals at High Familial Risk for Depression. (2016). DOI: 10.1038/npp.2015.342
+51	Alterations in amygdala–prefrontal circuits in infants exposed to prenatal maternal depression. (2016). DOI: 10.1038/tp.2016.146
+52	Clinically Anxious Individuals Show Disrupted Feedback between Inferior Frontal Gyrus and Prefrontal-Limbic Control Circuit. (2016). DOI: 10.1523/JNEUROSCI.1092-15.2016
+53	Evidence for Thalamocortical Circuit Abnormalities and Associated Cognitive Dysfunctions in Underweight Individuals with Anorexia Nervosa. (2016). DOI: 10.1038/npp.2015.314
+54	Abnormal hippocampal structure and function in clinical anxiety and comorbid depression. (2016). DOI: 10.1002/hipo.22566
+55	Abnormal reward circuitry in anorexia nervosa: A longitudinal, multimodal MRI study. (2016). DOI: 10.1002/hbm.23279
+56	Neural Correlates of Aggression in Medication-Naive Children with ADHD: Multivariate Analysis of Morphometry and Tractography. (2015). DOI: 10.1038/npp.2015.18
+57	VENTROMEDIAL PREFRONTAL CORTEX REACTIVITY IS ALTERED IN GENERALIZED ANXIETY DISORDER DURING FEAR GENERALIZATION. (2013). DOI: 10.1002/da.22016
+58	Hyper-Reactive Human Ventral Tegmental Area and Aberrant Mesocorticolimbic Connectivity in Overgeneralization of Fear in Generalized Anxiety Disorder. (2014). DOI: 10.1523/JNEUROSCI.4868-13.2014
+59	Circuit-Wide Structural and Functional Measures Predict Ventromedial Prefrontal Cortex Fear Generalization: Implications for Generalized Anxiety Disorder. (2014). DOI: 10.1523/JNEUROSCI.3372-13.2014
+60	Effects of Serotonin Transporter Gene Variation on Impulsivity Mediated by Default Mode Network: A Family Study of Depression. (2018). DOI: 10.1093/cercor/bhx097

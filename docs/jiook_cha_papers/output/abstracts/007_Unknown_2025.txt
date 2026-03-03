@@ -1,0 +1,9 @@
+Title: It's-A-Me, Quantum Mario: Scalable Quantum Reinforcement Learning with Multi-Chip Ensembles. (2025)
+Authors: 
+Year: 2025
+DOI: 10.1109/QAI63978.2025.00063
+Journal: 
+
+--- Abstract ---
+
+Quantum reinforcement learning (QRL) promises compact function approximators with access to vast Hilbert spaces, but its practical progress is slowed by NISQ-era constraints such as limited qubits and noise accumulation. We introduce a multi-chip ensemble framework using multiple small Quantum Convolutional Neural Networks (QCNNs) to overcome these constraints. Our approach partitions complex, high-dimensional observations from the Super Mario Bros environment across independent quantum circuits, then classically aggregates their outputs within a Double Deep Q-Network (DDQN) framework. This modular architecture enables QRL in complex environments previously inaccessible to quantum agents, achieving superior performance and learning stability compared to classical baselines and single-chip quantum models. The multichip ensemble demonstrates enhanced scalability by reducing information loss from dimensionality reduction while remaining implementable on near-term quantum hardware, providing a practical pathway for applying QRL to real-world problems.

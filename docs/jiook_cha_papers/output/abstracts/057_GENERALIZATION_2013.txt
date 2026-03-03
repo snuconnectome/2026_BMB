@@ -1,0 +1,9 @@
+Title: (2013)
+Authors: VENTROMEDIAL PREFRONTAL CORTEX REACTIVITY IS ALTERED IN GENERALIZED ANXIETY DISORDER DURING FEAR GENERALIZATION.
+Year: 2013
+DOI: 10.1002/da.22016
+Journal: 
+
+--- Abstract ---
+
+Fear generalization is thought to contribute to the development and maintenance of anxiety symptoms and accordingly has been the focus of recent research. Previously, we reported that in healthy individuals (N = 25) neural reactivity in the insula, anterior cingulate cortex (ACC), supplementary motor area (SMA), and caudate follow a generalization gradient with a peak response to a conditioned stimulus (CS) that declines with greater perceptual dissimilarity of generalization stimuli (GS) to the CS. In contrast, reactivity in the ventromedial prefrontal cortex (vmPFC), a region linked to fear inhibition, showed an opposite response pattern. The aim of the current study was to examine whether neural responses to fear generalization differ in generalized anxiety disorder (GAD). A second aim was to examine connectivity of primary regions engaged by the generalization task in the GAD group versus healthy group, using psychophysiological interaction analysis.

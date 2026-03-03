@@ -1,0 +1,25 @@
+Title: Individual Differences in Effects of Stressful Life Events on Childhood ADHD: Genetic, Neural, and Familial Contributions. (2025)
+Authors: 
+Year: 2025
+DOI: 10.1101/2025.03.18.25324229
+Journal: 
+
+--- Abstract ---
+
+Abstract
+                
+                  Background
+                  This study elucidates the intricate relationship between stressful life events and the development of ADHD symptoms in children, acknowledging the considerable variability in individual responses. By examining these differences, we aim to uncover the unique combinations of factors contributing to varying levels of vulnerability and resilience among children.
+                
+                
+                  Methods
+                  Utilizing longitudinal data from the Adolescent Brain Cognitive Development study (baseline: N=6303, age=9.9), we applied Generalized Random Forest to model the non-linear relationships among genetic predispositions, brain features, and environmental factors.
+                
+                
+                  Results
+                  Significant individual variability was observed in children’s ADHD symptoms post-stress, particularly at the 1-year and 2-year follow-ups. At the 1-year follow-up, increased vulnerability was indicated by heightened parental mental health problems and a lower polygenic risk score for smoking. By the 2-year follow-up, escalated parental mental health disorders, higher ADHD polygenic risk scores, and altered structural connectivity in the cognitive control network were significant contributors to individual differences.
+                
+                
+                  Conclusions
+                  These findings underscore the importance of integrating environmental, genetic, and neural variables to identify children vulnerable or resilient to developing ADHD symptoms following early-life stress. This study demonstrates how multimodal data combined with non-parametric machine-learning can advance precision psychology and psychiatry, aiding targeted support for affected children.
+                

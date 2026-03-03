@@ -1,0 +1,22 @@
+Title: Maternal age at birth and child attention-deficit hyperactivity disorder: causal association or familial confounding? (2022)
+Authors: 
+Year: 2022
+DOI: 10.1111/jcpp.13726
+Journal: 
+
+--- Abstract ---
+
+BACKGROUND
+Causal explanations for the association of young motherhood with increased risk for child attention-deficit hyperactivity disorder (ADHD) remain unclear.
+
+
+METHODS
+The ABCD Study recruited 11,878 youth from 22 sites across the United States between June 1, 2016 and October 15, 2018. This cross-sectional analysis of 8,514 children aged 8-11 years excluded 2,260 twins/triplets, 265 adopted children, and 839 younger siblings. We examined associations of maternal age with ADHD clinical range diagnoses based on the Child Behavior Checklist and NIH Toolbox Flanker Attention Scores using mixed logistic and linear regression models, respectively. We conducted confounding and causal mediation analyses using genotype array, demographic, socioeconomic, and prenatal environment data to investigate which genetic and environmental variables may explain the association between young maternal age and child ADHD.
+
+
+RESULTS
+In crude models, each 10-year increase in maternal age was associated with 32% decreased odds of ADHD clinical range diagnosis (OR = 0.68; 95% CI [0.59, 0.78]) and 1.09-points increased NIH Flanker Attention Scores (β = 1.09; 95% CI [0.76, 1.41]), indicating better child visual selective attention. However, adjustment for confounders weakened these associations. The strongest confounders were family income, caregiver education, and ADHD polygenic risk score for ADHD clinical range diagnoses, and family income, caregiver education, and race/ethnicity for NIH Flanker Attention Scores. Breastfeeding duration, prenatal alcohol exposure, and prenatal tobacco exposure were responsible for up to 18%, 6%, and 4% mediation, respectively.
+
+
+CONCLUSIONS
+Socioeconomic disadvantages were likely the primary explanation for the association of young maternal age with child ADHD, although genetics and modifiable environmental factors also played a role. Public policies aimed at reducing the burden of ADHD associated with young motherhood should target socioeconomic inequalities and support young pregnant women by advocating for reduced prenatal tobacco exposure and healthy breastfeeding practices after childbirth.

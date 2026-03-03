@@ -1,0 +1,22 @@
+Title: Altered Dentate Gyrus Microstructure in Individuals at High Familial Risk for Depression Predicts Future Symptoms. (2020)
+Authors: 
+Year: 2020
+DOI: 10.1016/j.bpsc.2020.06.006
+Journal: 
+
+--- Abstract ---
+
+BACKGROUND
+Offspring of individuals with major depressive disorder (MDD) are at increased risk for developing MDD themselves. Altered hippocampal, and specifically dentate gyrus (DG), structure and function may be involved in depression development. However, hippocampal abnormalities could also be a consequence of the disease. For the first time, we tested whether abnormal DG micro- and macrostructure were present in offspring of individuals with MDD and whether these abnormalities predicted future symptomatology.
+
+
+METHODS
+We measured the mean diffusivity of gray matter, a measure of microstructure, via diffusion tensor imaging and volume of the DG via structural magnetic resonance imaging in 102 generation 2 and generation 3 offspring at high and low risk for depression, defined by the presence or absence, respectively, of moderate to severe MDD in generation 1. Prior, current, and future depressive symptoms were tested for association with hippocampal structure.
+
+
+RESULTS
+DG mean diffusivity was higher in individuals at high risk for depression, regardless of a lifetime history of MDD. While DG mean diffusivity was not associated with past or current depressive symptoms, higher mean diffusivity predicted higher symptom scores 8 years later. DG microstructure partially mediated the association between risk and future symptoms. DG volume was smaller in high-risk generation 2 but not in high-risk generation 3.
+
+
+CONCLUSIONS
+Together, these findings suggest that the DG has a role in the development of depression. Furthermore, DG microstructure, more than macrostructure, is a sensitive risk marker for depression and partially mediates future depressive symptoms.

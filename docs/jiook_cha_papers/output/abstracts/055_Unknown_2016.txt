@@ -1,0 +1,9 @@
+Title: Abnormal reward circuitry in anorexia nervosa: A longitudinal, multimodal MRI study. (2016)
+Authors: 
+Year: 2016
+DOI: 10.1002/hbm.23279
+Journal: 
+
+--- Abstract ---
+
+AbstractAnorexia nervosa (AN) is a debilitating illness and existing interventions are only modestly effective. This study aimed to determine whether AN pathophysiology is associated with altered connections within fronto‐accumbal circuitry subserving reward processing. Diffusion and resting‐state functional MRI scans were collected in female inpatients with AN (n = 22) and healthy controls (HC; n = 18) between the ages of 16 and 25 years. Individuals with AN were scanned during the acute, underweight phase of the illness and again following inpatient weight restoration. HC were scanned twice over the same timeframe. Based on univariate and multivariate analyses of fronto‐accumbal circuitry, underweight individuals with AN were found to have increased structural connectivity (diffusion probabilistic tractography), increased white matter anisotropy (tract‐based spatial statistics), increased functional connectivity (seed‐based correlation in resting‐state fMRI), and altered effective connectivity (spectral dynamic causal modeling). Following weight restoration, fronto‐accumbal structural connectivity continued to be abnormally increased bilaterally with large (partial η2 = 0.387; right NAcc‐OFC) and moderate (partial η2 = 0.197; left NAcc‐OFC) effect sizes. Increased structural connectivity within fronto‐accumbal circuitry in the underweight state correlated with severity of eating disorder symptoms. Taken together, the findings from this longitudinal, multimodal neuroimaging study offer converging evidence of atypical fronto‐accumbal circuitry in AN. Hum Brain Mapp 37:3835–3846, 2016. © 2016 Wiley Periodicals, Inc.

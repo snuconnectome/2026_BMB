@@ -1,0 +1,15 @@
+16	Awe is characterized as an ambivalent experience in the human behavior and cortex: integrated virtual reality-electroencephalogram study. (2024). DOI: 10.1101/2024.08.18.608520
+17	Subcortical volumes in offspring with a multigenerational family history of depression - A study across two cohorts. (2024). DOI: 10.1016/j.jad.2024.07.107
+18	Quantum Privacy Aggregation of Teacher Ensembles (QPATE) for Privacy Preserving Quantum Machine Learning. (2024). arXiv: 2401.07464
+19	Predicting task-related brain activity from resting-state brain dynamics with fMRI Transformer. (2024). DOI: 10.1101/2024.05.29.596544
+20	Differences in White Matter Structural Networks in Family Risk of Major Depressive Disorder and Suicidality: A Connectome Analysis. (2023). DOI: 10.1101/2023.09.07.23295211
+21	AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer. (2023). arXiv: 2312.05928
+22	Early life stress modulates the genetic influence on brain structure and cognitive function in children. (2023). DOI: 10.1016/j.heliyon.2023.e23345
+23	Resting-state theta-phase gamma amplitude coupling as a biomarker for the transdiagnostic dimensional approach in psychiatric disorders. (2023). DOI: 10.1111/pcn.13554
+24	Dentate Gyrus Microstructure is associated with Resilience after Exposure to Maternal Stress Across Two Human Cohorts. (2023). DOI: 10.1016/j.biopsych.2023.06.026
+25	SwiFT: Swin 4D fMRI Transformer. (2023). arXiv: 2307.05916
+26	Overestimated prediction using polygenic prediction derived from summary statistics. (2023). DOI: 10.1186/s12863-023-01151-4
+27	Therapeutic Effect of Repetitive Transcranial Magnetic Stimulation for Post-stroke Vascular Cognitive Impairment: A Prospective Pilot Study. (2022). DOI: 10.3389/fneur.2022.813597
+28	Overestimated Polygenic Prediction due to Overlapping Subjects in Genetic Datasets. (2022). DOI: 10.1101/2022.01.19.476997
+29	Maternal age at birth and child attention-deficit hyperactivity disorder: causal association or familial confounding? (2022). DOI: 10.1111/jcpp.13726
+30	Cognitive Capacity Genome-Wide Polygenic Scores Identify Individuals with Slower Cognitive Decline in Aging. (2022). DOI: 10.3390/genes13081320

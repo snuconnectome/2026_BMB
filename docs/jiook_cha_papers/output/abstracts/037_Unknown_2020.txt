@@ -1,0 +1,10 @@
+Title: Genome-wide Polygenic Scores for Multiple Psychiatric and Common Traits Identify Preadolescent Youth with Risk for Suicide. (2020)
+Authors: 
+Year: 2020
+DOI: 10.21203/rs.3.rs-136949/v1
+Journal: 
+
+--- Abstract ---
+
+Abstract
+        Suicide is a leading cause of death in youth worldwide, but identifying which youth are at high risk for suicide remains challenging. We constructed genome-wide polygenic scores (GPSs) from 24 psychiatric disorders and common traits from 8,212 US preadolescent children ages 9 to 10 and investigated their associations and predictive utility with suicidality (suicidal ideation and attempt). We identified three GPSs significantly associated with youth suicidality: ADHD (P=2.83x10-4; odds ratio=1.12), general happiness with a belief that life is meaningful (P=1.30x10-3; odds ratio=0.89) and autism spectrum disorder (ASD) (P=1.81x10-3; odds ratio=1.14). We also found a significant gene-by-environment interaction such that the GPS of ASD in the context of early life stress substantially increased suicidal ideation (P=1.39x10-2, odds ratio=1.11). Machine learning models showed, in predicting suicidal ideation, a receiver operators characteristics-area under the curve (ROC-AUC) of 0.72, and, in suicidal attempts, a ROC-AUC of 0.765. By providing the first quantitative account of the polygenic and environmental factors of suicidality in a large, representative population of preadolescent youth, this study shows the potential utility of the GPSs in investigating youth suicidality for early screening, intervention, and prevention.

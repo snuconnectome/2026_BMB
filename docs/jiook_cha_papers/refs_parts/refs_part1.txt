@@ -1,0 +1,15 @@
+1	Differences in white matter structural networks in family risk of major depressive disorder and suicidality: A connectome analysis. (2025). DOI: 10.1016/j.jad.2025.120386
+2	Resting-State fMRI Analysis Using Quantum Time-Series Transformer. (2025). arXiv: 2509.00711
+3	DIVER-0 : A Fully Channel Equivariant EEG Foundation Model. (2025). arXiv: 2507.14141
+4	Spatiotemporal Learning of Brain Dynamics from fMRI Using Frequency-Specific Multi-Band Attention for Cognitive and Psychiatric Applications. (2025). arXiv: 2503.23394
+5	Individual Differences in Effects of Stressful Life Events on Childhood ADHD: Genetic, Neural, and Familial Contributions. (2025). DOI: 10.1101/2025.03.18.25324229
+6	Addressing the Current Challenges of Quantum Machine Learning through Multi-Chip Ensembles. (2025). arXiv: 2505.08782
+7	It's-A-Me, Quantum Mario: Scalable Quantum Reinforcement Learning with Multi-Chip Ensembles. (2025). DOI: 10.1109/QAI63978.2025.00063
+8	SEED: Towards More Accurate Semantic Evaluation for Visual Brain Decoding. (2025). arXiv: 2503.06437
+9	Revisiting Your Memory: Reconstruction of Affect-Contextualized Memory via EEG-guided Audiovisual Generation. (2024). DOI: 10.1145/3746277.3760413
+10	Macro2Micro: Cross-modal Magnetic Resonance Imaging Synthesis Leveraging Multi-scale Brain Structures. (2024). DOI: 10.48550/arXiv.2412.11277
+11	Polygenic architecture of brain structure and function, behaviors, and psychopathologies in children. (2024). DOI: 10.1101/2024.05.22.595444
+12	Gene–environment pathways to cognitive intelligence and psychotic-like experiences in children. (2024). DOI: 10.7554/eLife.88117
+13	White matter diffusion estimates in obsessive-compulsive disorder across 1653 individuals: machine learning findings from the ENIGMA OCD Working Group. (2024). DOI: 10.1038/s41380-023-02392-6
+14	Over the Quantum Rainbow: Explaining Hybrid Quantum Reinforcement Learning. (2024). DOI: 10.1109/QCE60285.2024.00185
+15	Polygenic scores for psychiatric traits mediate the impact of multigenerational history for depression on offspring psychopathology. (2024). DOI: 10.21203/rs.3.rs-4264742/v1

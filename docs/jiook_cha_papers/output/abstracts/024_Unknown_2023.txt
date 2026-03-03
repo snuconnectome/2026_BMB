@@ -1,0 +1,22 @@
+Title: Dentate Gyrus Microstructure is associated with Resilience after Exposure to Maternal Stress Across Two Human Cohorts. (2023)
+Authors: 
+Year: 2023
+DOI: 10.1016/j.biopsych.2023.06.026
+Journal: 
+
+--- Abstract ---
+
+BACKGROUND
+Maternal stress (MS) is a well-documented risk factor for impaired emotional development in offspring. Rodent models implicate the dentate gyrus (DG) of the hippocampus in the effects of MS on offspring depressive-like behaviors, but mechanisms in humans remain unclear. Here, we test across two independent cohorts whether MS is associated with depressive symptoms and with DG micro- and macro-structural alterations in offspring.
+
+
+METHODS
+We analyzed DG DTI mean diffusivity (DG-MD) and volume in a 3-Generation Family Risk for Depression study (TGS; n=69, mean age 35.0) and the Adolescent Brain Cognitive Development Study (ABCD; n=5196, mean age 9.9) using generalized estimating equation models and mediation analysis. MS was assessed by the Parenting Stress Index (in TGS) and a measure compiled from the Adult Response Survey (ABCD). PHQ-9 and rumination scales (TGS) and Child Behavior Checklist (ABCD) measured offspring depressive symptoms at follow-up. Schedule for Affective Disorders and Schizophrenia-Lifetime interview measured depression diagnoses.
+
+
+RESULTS
+Across cohorts, MS was associated with future symptoms and higher DG-MD (indicating disrupted microstructure) in offspring. Higher DG-MD was associated with higher symptom scores measured 5 years (TGS) and 1-year (ABCD) after MRI. In ABCD, DG-MD is increased in high-MS offspring who have depressive symptoms at follow-up, but not in offspring who remain resilient or whose mother had low MS.
+
+
+CONCLUSIONS
+Converging results across two independent samples extend previous rodent studies and suggest a role for the DG in exposure to MS and offspring depression.

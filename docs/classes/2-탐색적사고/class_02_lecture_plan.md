@@ -10,8 +10,8 @@
 ## 🎯 학습 목표 (Learning Objectives)
 
 1. **Agentic Onboarding 완료**: 오딧 로그(Audit Log)의 가치와 작성법을 이해하고, 'Steering(조향)'이 곧 핵심 학습(Action)임을 내재화한다.
-2. **Intelligence Coordinator로의 전환**: 데미스 허사비스의 관점을 빌려, 학생 스스로 AI 도구의 단순 사용자를 넘어 지식 파이프라인의 설계자가 되는 경험을 한다.
-3. **End-to-End 지식 파이프라인 실습**: Cline을 활용하여 문헌 검색, 다운로드, 요약 과정을 자동화하고, 이를 NotebookLM이라는 '자신만의 기억 궁전'에 통합한다.
+2. **Intelligence Coordinator로의 전환**: 단순한 AI '사용자'를 넘어, 스스로 필요한 도구와 파이프라인을 설계하고 창조하는 '에이전틱 크리에이터(Agentic Creator)'의 경험을 한다.
+3. **Agentic Builder 실습**: 코딩 지식 없이도 Cline을 활용해 "90-00년대 고전 연구와 최신 연구 동향을 비교하는 나만의 뉴스레터/웹앱"을 기획하고 자동 생성해 낸다.
 
 ---
 
@@ -35,32 +35,33 @@
 - **0:20 - 0:25 | 과제 브리핑 (AlphaGo):**
   - 알파고 다큐멘터리 시청 관찰 과제를 리뷰하며, 3단계 AI 스파링 과정(데이터 수집 -> 분석 -> 에세이)을 어떻게 진행해야 하는지 가이드합니다.
 
-### Movement 2: Paradigm Shift - The Hassabis Perspective (0:25 - 0:35 | 10 mins)
+### Movement 2: Paradigm Shift - Agentic Creator (0:25 - 0:35 | 10 mins)
 
-- **0:25 - 0:35 | Tool Consumer vs. Intelligence Coordinator:**
-  - 데미스 허사비스의 관점을 소개합니다: "뛰어난 과학자는 도구를 쓰는 사람이 아니라, 문제를 풀기 위해 지능형 에이전트들을 오케스트레이션하는 사람이다."
-  - 오늘 실습의 의미: 단순히 NotebookLM에 파일을 올리는 것을 넘어, 웹의 거대한 정보(Web)를 정제하여 내 기억 궁전(Memory Palace)으로 가져오는 파이프라인을 직접 구축해 봅니다.
+- **0:25 - 0:35 | Tool Consumer vs. Agentic Creator:**
+  - 챗GPT나 NotebookLM에 이미 있는 정보를 묻는 '소비자(Consumer)' 단계에서 벗어나야 함을 역설합니다.
+  - "진정한 에이전시는 내가 원하는 지식 파이프라인이나 프로덕트(App/Newsletter)를 기계에게 '만들게' 지시하는 데에서 나옵니다."
+  - 오늘 실습의 의미: 코딩을 몰라도, 과거 90년대 세상을 놀라게 한 연구와 오늘의 최신 연구를 비교 분석해 주는 나만의 '뉴스레터/웹앱'을 30분 만에 뚝딱 만들어 봅니다.
 
-### Movement 3: Live Practice - From Web to Memory Palace (0:35 - 0:65 | 30 mins)
+### Movement 3: Live Practice - 나만의 뇌과학 트렌드 앱 만들기 (0:35 - 0:65 | 30 mins)
 
-*(Cline을 활용한 에이전틱 문헌 조사 실습)*
+*(Cline을 활용한 코딩 없는 웹앱 프로토타이핑)*
 
-- **0:35 - 0:45 | Step 1. The Search (탐색적 사고):**
-  - Cline에게 지시하여 뇌-마음-행동 관련 특정 주제(예: 'Emotion Regulation and Prefrontal Cortex')의 최신 리뷰 논문을 검색하게 합니다 (PubMed/arXiv API 활용).
-- **0:45 - 0:55 | Step 2. The Extraction (자동 다운로드 및 로컬 환경 구축):**
-  - 검색된 논문의 PDF 원문을 Cline이 터미널 환경에서 직접 다운로드하여 로컬 폴더(예: `/data/papers/`)에 저장하는 과정을 시연하고 따라 합니다.
-  - *핵심 포인트:* AI가 로컬 파일 시스템과 상호작용하며 물리적 노동을 대체하는 경험.
-- **0:55 - 0:65 | Step 3. The Synthesis (요약 및 지식 구조화):**
-  - 다운로드된 논문 텍스트를 Cline 또는 로컬 LLM 환경을 기동시켜 요약(초록, 핵심 연구 메커니즘, 한계점)하게 만듭니다.
-  - 결과를 단일 마크다운 파일(`NotebookLM_Upload_Summary.md`)로 출력합니다.
+- **0:35 - 0:45 | Step 1. 기획 및 프롬프팅 (The Blueprint):**
+  - 학생 각자 관심 있는 뇌/마음/행동 주제(예: '우울증과 신경가소성')와, 비교하고 싶은 과거 핵심 연구 키워드(예: 90년대 세로토닌 가설)를 설정합니다.
+  - Cline에게 내릴 지시문(Prompt)을 정교하게 다듬습니다. "PubMed에서 이 주제의 과거 핵심 논문과 최신 논문 3편을 가져와서, 차이점을 비교해주는 예쁜 대시보드 형태의 HTML/JS 웹앱을 짜 줘."
+- **0:45 - 0:55 | Step 2. Agentic Action & Execution (물리적 제어):**
+  - 기획이 끝나면, 모두 일제히 Cline(또는 Cursor)에 프롬프트를 입력하고 엔터를 칩니다.
+  - AI가 실제로 코드를 짜고, 폴더를 만들고, 로컬 서버를 띄워 **나만의 뉴스레터/앱**이 브라우저에 짠 하고 나타나는 마법 같은 순간을 실시간으로 경험합니다.
+- **0:55 - 0:65 | Step 3. 통합 및 스티어링 (Steering the Creation):**
+  - 만들어진 결과물(UI, 논문 요약의 깊이 등)을 확인합니다.
+  - "디자인이 마음에 안 들어", "90년대 논문 요약본이 너무 부실해" 등 피드백을 주며 에이전트의 결과물을 다듬는(Steering) 추가 조향 과정을 거칩니다.
 
-### Epilogue: Building the Memory Palace (0:65 - 0:75 | 10 mins)
+### Epilogue: NotebookLM과의 융합 (0:65 - 0:75 | 10 mins)
 
 - **0:65 - 0:70 | Integration with NotebookLM:**
-  - Cline을 통해 자동화하여 뽑아낸 `NotebookLM_Upload_Summary.md` 및 로컬 PDF 파일들을, 수업 초반에 권한을 받은 '2026 BMB NotebookLM'에 직접 업로드해 봅니다.
-  - "웹의 조각난 정보가 내 에이전트(Cline)를 거쳐 정제되고, 최종적으로 나와 상호작용할 수 있는 두뇌(Notebook LM)로 통합되었다"는 감각을 부여합니다.
+  - 이렇게 Cline을 조종하여 자동 생성된 결과물(요약 데이터, 인사이트)을 내가 사용할 '2026 BMB NotebookLM'에 집어넣어, 나만의 지식 궁전을 더 단단하게 구축하는 법을 논의합니다.
 - **0:70 - 0:75 | Debrief & Q&A:**
-  - 오늘 구축한 파이프라인의 한계점과 개선 방향을 토론하며 수업을 마무리합니다.
+  - 생산자(Creator)가 된 오늘의 경험과 한계, 그리고 이것이 앞으로 남은 학기 동안 논문을 읽고 공부하는 방식에 어떤 변화를 가져올지 토론하며 마무리합니다.
 
 ---
 

@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "895792b4e2465e73",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cb0495c305abb79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ef716317700ebc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/classes/2-탐색적사고/class_02_homework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "class_02_homework"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "490ee5bbaffd2bd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c7953eab9dd8cfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aace3c6b44db0195",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "33fe736eca20489e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5a119e99d183754d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.50260543823242
+  },
+  "right": {
+    "id": "738337232502155a",
+    "type": "split",
+    "children": [
+      {
+        "id": "33eeede5563ebcc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "530beb2b5be41ce9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/classes/2-탐색적사고/class_02_homework.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for class_02_homework"
+            }
+          },
+          {
+            "id": "aaf9adfdad5d6d37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/classes/2-탐색적사고/class_02_homework.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from class_02_homework"
+            }
+          },
+          {
+            "id": "241239a57aac3971",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7555356715520743",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c0dd55474ba6b0fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/classes/2-탐색적사고/class_02_homework.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of class_02_homework"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4ef716317700ebc7",
+  "lastOpenFiles": [
+    "docs/classes/2-탐색적사고/class_02_survey_analysis_report.md",
+    "docs/classes/2-탐색적사고/class_02_homework.md",
+    "docs/classes/2-탐색적사고/class_02_1_builder_perspectives.md",
+    "docs/classes/2-탐색적사고/trash/class_02_1_agentic_orientation_slides.pdf",
+    "docs/classes/2-탐색적사고/class-02-2-The_Prediction_Gymnasium.pdf",
+    "docs/classes/1-오리엔테이션/slides/class_01_1_agentic_orientation_slides.md",
+    "docs/classes/1-오리엔테이션/slides/class_01_1_agentic_orientation_slides.pdf.tmp",
+    "~$class_01_orientation_slides.pptx",
+    "class_01_orientation_slides.pptx",
+    "docs/classes/1-오리엔테이션/class_01_1_agentic_orientation.md",
+    "docs/classes/1-오리엔테이션/class_01_0_syllabus.md",
+    "docs/classes/1-오리엔테이션/class_01_2_homework.md",
+    "docs/classes/2-탐색적사고/image/class_02_agentic_workflows_claude",
+    "docs/classes/2-탐색적사고/image"
+  ]
+}

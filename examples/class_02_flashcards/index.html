@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMB Class 02: 능동적 추론 플래시카드 (Demo)</title>
+  <!-- 모던한 타이포그래피를 위해 Google Fonts 적용 -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Pretendard:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* 다크모드 프리미엄 컬러 팔레트 */
+      --bg-color: #0b0f19;
+      --card-bg: rgba(22, 27, 34, 0.4);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text-main: #e6edf3;
+      --text-muted: #8b949e;
+      --accent-color: #58a6ff;
+      --accent-secondary: #bc8cff;
+    }
+    
+    * { 
+      box-sizing: border-box; 
+    }
+    
+    body {
+      font-family: 'Pretendard', 'Outfit', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      /* 신비롭고 깊이감 있는 배경 그라데이션 (Glassmorphism 분위기) */
+      background-image: 
+        radial-gradient(circle at 15% 50%, rgba(88, 166, 255, 0.08), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(188, 140, 255, 0.08), transparent 25%);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      animation: fadeInDown 0.8s ease-out;
+    }
+
+    header h1 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      font-size: 2.8rem;
+      margin: 0 0 0.5rem 0;
+      /* 텍스트 그라데이션 효과 */
+      background: linear-gradient(135deg, var(--accent-color), var(--accent-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: var(--text-muted);
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    .flashcard-container {
+      perspective: 1000px;
+      width: 90%;
+      max-width: 650px;
+      height: 380px;
+      margin-bottom: 2.5rem;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    /* 카드 본체: 호버 이펙트와 플립 애니메이션 */
+    .flashcard {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transform-style: preserve-3d;
+      cursor: pointer;
+    }
+
+    .flashcard:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    }
+
+    .flashcard.is-flipped {
+      transform: rotateY(180deg);
+    }
+
+    .flashcard.is-flipped:hover {
+      transform: rotateY(180deg) translateY(-5px);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden; /* 뒷면 숨김 */
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-front::before {
+      content: "QUESTION";
+      position: absolute;
+      top: 1.5rem;
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 3px;
+      color: var(--accent-color);
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+      border-color: rgba(188, 140, 255, 0.2);
+    }
+
+    .card-back::before {
+      content: "ANSWER";
+      position: absolute;
+      top: 1.5rem;
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 3px;
+      color: var(--accent-secondary);
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .content-text {
+      font-size: 1.45rem;
+      line-height: 1.6;
+      word-break: keep-all; /* 한글 텍스트 줄바꿈 최적화 */
+      font-weight: 400;
+    }
+
+    .card-back .content-text {
+      font-size: 1.25rem;
+      color: #c9d1d9;
+      font-weight: 300;
+    }
+
+    /* 내비게이션 컨트롤 */
+    .controls {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      animation: fadeIn 1s ease-out 0.5s both;
+    }
+
+    button {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'Outfit', inherit;
+      backdrop-filter: blur(5px);
+    }
+
+    button:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+
+    .progress {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-family: 'Outfit', sans-serif;
+      min-width: 60px;
+      text-align: center;
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+
+    /* 입장 애니메이션 */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Active Inference Flash</h1>
+    <p>2026 BMB Class 02 - Agentic Builder Practice</p>
+  </header>
+
+  <div class="flashcard-container" id="cardContainer">
+    <div class="flashcard" id="flashcard">
+      <div class="card-face card-front">
+        <div class="content-text" id="questionText">능동적 추론이란 무엇인가요?</div>
+      </div>
+      <div class="card-face card-back">
+        <div class="content-text" id="answerText">뇌가 예측과 감각 입력 간의 차이(예측 오류)를 최소화하기 위해 세상을 모델링하고 능동적으로 행동을 조정하는 과정입니다.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prevBtn" aria-label="Previous card">← Prev</button>
+    <div class="progress" id="progressText">1 / 5</div>
+    <button id="nextBtn" aria-label="Next card">Next →</button>
+  </div>
+
+  <script>
+    // NotebookLM에서 추출할 가상의 문답 데이터 세트 5개
+    const flashcards = [
+      {
+        q: "능동적 추론(Active Inference)이란 무엇인가요?",
+        a: "뇌가 외부 세계를 완벽하게 알 수 없는 상태에서, 예측과 실제 감각 입력 간의 차이(예측 오류)를 최소화하기 위해 내부 모델을 업데이트하거나 자신의 행동을 능동적으로 조정하는 전반적인 과정입니다."
+      },
+      {
+        q: "예측 오류(Prediction Error)란 무엇을 의미하나요?",
+        a: "뇌의 '경험 기반의 내부 모델'이 예상한 결과와 실제 외부 환경으로부터 들어온 '감각 데이터' 사이의 불일치(차이)를 말합니다."
+      },
+      {
+        q: "[객관식] 능동적 추론 관점에서 '지각(Perception)'은 어떻게 설명되나요?",
+        a: "지각은 수동적인 수용이 아닙니다. 뇌의 '하향식 예측(Top-down)'과 '상향식 감각 데이터(Bottom-up)'가 지속적으로 부딪히며 예측 오류를 줄여가는 능동적인 가설 검증 과정입니다."
+      },
+      {
+        q: "'행동(Action)'은 예측 오류를 줄이는 데 어떤 방식으로 기여하나요?",
+        a: "내부의 예측(가설)을 수정하는 대신, 환경 그 자체에 물리적인 변화를 일으켜서 감각 입력을 내 예측(의도)에 맞게 강제로 끼워 맞추는 역할(자기 충족적 예언)을 합니다."
+      },
+      {
+        q: "이 플래시카드 앱을 만든 '에이전틱 크리에이터'의 경험은 능동적 추론과 어떤 관계가 있나요?",
+        a: "단순히 앱을 다운로드하는 수동적 '지각'에서 벗어나, Cursor라는 환경에 프롬프트를 입력(행동)하여 내 머릿속의 아이디어(예측)를 실제 작동하는 소프트웨어로 현실화(오류 최소화)한 완벽한 능동적 추론의 실천입니다."
+      }
+    ];
+
+    let currentIndex = 0;
+    const flashcardEl = document.getElementById('flashcard');
+    const questionEl = document.getElementById('questionText');
+    const answerEl = document.getElementById('answerText');
+    const progressEl = document.getElementById('progressText');
+
+    function updateCard() {
+      // 카드가 뒤집혀 있는 상태라면 원상복구 (앞면이 보이도록)
+      flashcardEl.classList.remove('is-flipped');
+      
+      // 카드가 다시 앞으로 돌아오는 애니메이션을 기다린 뒤 텍스트 내용 교체
+      setTimeout(() => {
+        questionEl.innerHTML = flashcards[currentIndex].q;
+        answerEl.innerHTML = flashcards[currentIndex].a;
+        progressEl.innerText = `${currentIndex + 1} / ${flashcards.length}`;
+      }, 300); 
+    }
+
+    // 카드 클릭 시 3D 플립 애니메이션 트리거
+    flashcardEl.addEventListener('click', () => {
+      flashcardEl.classList.toggle('is-flipped');
+    });
+
+    // 이전 버튼 클릭
+    document.getElementById('prevBtn').addEventListener('click', (e) => {
+      e.stopPropagation(); // 버튼 클릭 시 카드 뒤집힘 방지
+      currentIndex = (currentIndex > 0) ? currentIndex - 1 : flashcards.length - 1;
+      updateCard();
+    });
+
+    // 다음 버튼 클릭
+    document.getElementById('nextBtn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentIndex = (currentIndex < flashcards.length - 1) ? currentIndex + 1 : 0;
+      updateCard();
+    });
+
+    // 앱 초기 렌더링
+    updateCard();
+  </script>
+</body>
+</html>

@@ -23,6 +23,16 @@
 
 ---
 
+## 🖥️ 학생용: Cursor + 수업용 API 설정하기
+
+수업용 **Tailscale(tailnet) + LiteLLM** 서버를 Cursor에서 쓰는 방법은 두 가지입니다.
+
+- **[Cursor + Tailscale + LiteLLM 설정](docs/classes/1-오리엔테이션/agentic_ai_onboarding/SETUP_CURSOR_TAILNET_LITELLM.md)** — Cline 없이 Cursor(무료)만으로 수업 API 연결 (권장: 간단한 경로)
+- **[Cline 스텝바이스텝 튜토리얼](docs/classes/1-오리엔테이션/agentic_ai_onboarding/CLINE_STEP_BY_STEP_TUTORIAL.md)** — Cline 확장 설치 후 에이전트·실습 파이프라인까지
+- [Cline 설치·설정 요약본](docs/classes/1-오리엔테이션/agentic_ai_onboarding/SETUP_CLINE.md) — 설정만 빠르게 참고할 때
+
+---
+
 ## 📚 쉽게 따라하는 NotebookLM 연동 방법 (필수!)
 
 본 코스는 구글의 **NotebookLM**을 지식 베이스로 활용합니다.

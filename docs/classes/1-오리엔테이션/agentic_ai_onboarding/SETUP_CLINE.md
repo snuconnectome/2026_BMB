@@ -1,7 +1,9 @@
-# 2026 뇌마음행동: Cline(Agentic AI) 설치 및 설정 가이드
+# 2026 뇌마음행동: Cline(Agentic AI) 설치 및 설정 가이드 (요약본)
 
-**뇌마음행동 과정 | 서울대학교 커넥톰연구실 (차지욱 교수)**
+**뇌마음행동 과정 | 서울대학교 커넥톰연구실 (차지욱 교수)**  
 **학습 목표**: AI 자체를 배우는 것이 아닌, 질문을 발굴하고 탐구하기 위한 **"Enabling Technology"**로서 Agentic AI(Cline) 설정하기.
+
+> **처음 설치·사용하시나요?** 연결 테스트, Allow 승인, 첫 실습까지 한 번에 따라 하려면 **[Cline 스텝바이스텝 튜토리얼](CLINE_STEP_BY_STEP_TUTORIAL.md)**을 먼저 진행하세요. 이 문서는 설치·설정만 빠르게 참고할 때 쓰는 요약본입니다.
 
 ---
 
@@ -37,7 +39,7 @@ Cursor 내에서 실질적인 자율 에이전트 역할을 할 **Cline**을 설
 2. **API Provider**: `OpenAI Compatible` 선택
 3. **Base URL**: `http://100.x.x.x:4000/v1` (조교 안내 참고)
 4. **API Key**: 개인별로 부여받은 실습용 `sk-xxxxx` 키 입력
-5. **Model ID**: `deepseek/deepseek-v3.2` 또는 `gemini/gemini-2.5-pro` 입력
+5. **Model ID**: `deepseek/deepseek-r1-distill-qwen-32b` (권장, 빠름) 또는 `deepseek/deepseek-v3.2`, `gemini/gemini-2.5-pro` 입력
 6. **Save** 클릭
 
 > **연결 테스트**: 채팅창에 `Hello, 연결 확인 부탁해` 라고 입력하여 응답이 오면 성공입니다!
